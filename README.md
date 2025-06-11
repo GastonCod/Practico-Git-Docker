@@ -8,5 +8,5 @@ Proyecto HTML basico con Nginx dentro de un contenedor Docker.
 
 
 ## Ejecucion
-docker build -t html-nginx-app .
+docker build -t html-nginx-app
 docker run -p 8080:80 html-nginx-app
